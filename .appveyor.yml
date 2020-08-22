@@ -14,6 +14,10 @@ build_script:
   - ps: .\build.ps1 -Target AppVeyor
 
 # Tests
+test_script:
+  - ps: .\demos\build.ps1
+
+# Tests
 test: off
 
 #---------------------------------#
